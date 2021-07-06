@@ -1,0 +1,27 @@
+.coin-row {
+  display: flex;
+  width: 100%;
+}
+
+.coin {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.coin-data {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.coin img {
+  width: 30px;
+  height: 30px;
+}
+
+.coin h1 {
+  font-size: 1rem;
+}
