@@ -8,20 +8,43 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-}
-
-.coin-data {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  margin-bottom: 50px;
+  color: #ffd52d;
 }
 
 .coin img {
-  width: 30px;
+  width: 50px;
   height: 30px;
+  object-fit: contain;
 }
 
 .coin h1 {
   font-size: 1rem;
+  width: 50px;
+}
+
+.coin p {
+  width: 50px;
+}
+
+.coin-data {
+  margin-right: 100px;
+  margin-bottom: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #ffd52d;
+}
+
+.coin-data p {
+  width: 100%;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
 }
