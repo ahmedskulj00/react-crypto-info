@@ -13,6 +13,12 @@ body {
   color: #ffd52d;
 }
 
+.box {
+  height: 80px;
+  margin-bottom: 70px;
+  margin-top: 50px;
+}
+
 .input {
   padding: 10px;
   width: 80px;
@@ -27,8 +33,6 @@ body {
   transition: 0.5s;
   display: block;
   margin: 0 auto;
-  margin-bottom: 70px;
-  margin-top: 50px;
 }
 input:hover {
   width: 350px;
@@ -39,9 +43,9 @@ input:hover {
   font-size: 26px;
   color: #ffd52d;
   transition: 0.2s;
-  position: absolute;
-  top: 18.7%;
-  left: 49.3%;
+  display: block;
+  margin: 0 auto;
+  margin-top: -3.5%;
 }
 .box:hover .i {
   opacity: 0;

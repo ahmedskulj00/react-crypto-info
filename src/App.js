@@ -29,7 +29,7 @@ function App() {
   return (
     <div className="App">
       <div className="coin-search">
-        <h1 className="coin-text">Search a currency</h1>
+        <h1 className="coin-text">crypto.js</h1>
         <div className="box">
           <form name="search">
             <input
