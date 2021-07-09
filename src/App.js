@@ -30,16 +30,14 @@ function App() {
     <div className="App">
       <div className="coin-search">
         <h1 className="coin-text">crypto.js</h1>
-        <div className="box">
-          <form name="search">
-            <input
-              type="text"
-              class="input"
-              name="txt"
-              onChange={handleChange}
-            />
-          </form>
-          <FontAwesomeIcon icon={faSearch} className="i" />
+        <div className="search-box">
+          <input
+            type="text"
+            name=""
+            id="coin-search"
+            onChange={handleChange}
+            placeholder="Enter a name of a cryptocurrency"
+          />
         </div>
       </div>
       {filteredCoins.map((coin) => {

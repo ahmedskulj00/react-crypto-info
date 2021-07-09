@@ -1,6 +1,7 @@
 .coin-row {
   display: flex;
   width: 100%;
+  animation: fadeInLeft 1.5s;
 }
 
 .coin {
@@ -47,4 +48,15 @@
 
 .green {
   color: green;
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
