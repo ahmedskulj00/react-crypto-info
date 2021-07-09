@@ -1,4 +1,4 @@
-## A simple site to check details of most popular cryptocurrencies.
+## A simple site to check details about popular cryptocurrencies. 
 ### This app was made in React.js., as I wanted to practice fetching api data using this powerful framework.
 
 ### Technologies used while making this app:
